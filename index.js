@@ -121,7 +121,7 @@ const autoAccessories = require("./routes/NutritionAndMore/autoAccessoriesRoutes
 const petSupplies = require("./routes/NutritionAndMore/petSuppliesRoutes");
 
 app.get("/", (req,res) => {
-    res.send("Welcome to My App!!!");
+    res.send("Welcome to My Shopping App!!!");
 });
 
 app.use("/shop",registerRoutes);
